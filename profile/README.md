@@ -10,24 +10,29 @@
   <sub>Terminal first &middot; synced by a server you run &middot; the server sees only ciphertext</sub>
 </p>
 
+<div align="justify">
+
 passforme keeps logins, 2FA codes, recovery codes, cards, bank accounts,
 API keys, SSH keys and Wi-Fi passwords in a vault encrypted on your own
 device. Opening it takes your master password **and** a Secret Key that
 never leaves your devices, so a copy stolen from the server, or from a
 backup, cannot be guessed open. Sync, if you want it, goes through a
 small server you run yourself, which stores ciphertext and nothing else.
-Linux, open source under the AGPL-3.0.
+Linux, open source under the AGPL-3.0. Install it with one line:
+`curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh`
 
-```sh
-curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh
-```
+</div>
 
 | | |
 |---|---|
 | [**passforme/passforme**](https://github.com/passforme/passforme) | The code, in Rust: the CLI, the vault format and cryptography, the sync server. Releases, the Docker image, how it works and why. |
 | [**passforme/website**](https://github.com/passforme/website) | [passforme.com](https://passforme.com): the home page, the [command guide](https://passforme.com/guide) with every command and a tried example, and the [brand kit](https://passforme.com/brand). |
 
+<div align="justify">
+
 Also on [crates.io](https://crates.io/crates/passforme) (`cargo install passforme`)
 and as [`ghcr.io/passforme/passforme-server`](https://github.com/passforme/passforme/pkgs/container/passforme-server).
 Found a security problem? Write to **security@passforme.com**, not to an
 issue: see the [security policy](https://github.com/passforme/passforme/security/policy).
+
+</div>
