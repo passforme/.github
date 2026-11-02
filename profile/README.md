@@ -24,7 +24,7 @@ Linux, open source under the AGPL-3.0. Install it with one line:
 
 <pre><code>curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh<br><br></code></pre>
 
-| | |
+| Repository | What is in it |
 |---|---|
 | [**passforme/passforme**](https://github.com/passforme/passforme) | The code, in Rust: the CLI, the vault format and cryptography, the sync server. Releases, the Docker image, how it works and why. |
 | [**passforme/website**](https://github.com/passforme/website) | [passforme.com](https://passforme.com): the home page, the [command guide](https://passforme.com/guide) with every command and a tried example, and the [brand kit](https://passforme.com/brand). |
