@@ -19,9 +19,12 @@ never leaves your devices, so a copy stolen from the server, or from a
 backup, cannot be guessed open. Sync, if you want it, goes through a
 small server you run yourself, which stores ciphertext and nothing else.
 Linux, open source under the AGPL-3.0. Install it with one line:
-`curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh`
 
 </div>
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh
+```
 
 | | |
 |---|---|
