@@ -22,10 +22,9 @@ Linux, open source under the AGPL-3.0. Install it with one line:
 
 </div>
 
-```sh
-curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh
+<pre><code>curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh
 
-```
+</code></pre>
 
 | | |
 |---|---|
