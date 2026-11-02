@@ -24,7 +24,7 @@ Linux, open source under the AGPL-3.0. Install it with one line:
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/passforme/passforme/main/install.sh | sh
-# Linux x86_64 or aarch64: checks the checksum, installs into ~/.local/bin, nothing runs as root
+
 ```
 
 | | |
